@@ -37,6 +37,7 @@ header {
 .header__menu.active {
   display: block;
   width: 90%;
+  height: 100vh;
   right: 0;
   top: 34px;
   padding: 20px;
