@@ -85,6 +85,14 @@ header {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .header__menu {
+    display: none; /* Скрываем меню */
+    list-style: none;
+    background: white;
+    position: absolute;
+    top: 60px; /* Регулируй положение */
+    padding: 10px;
+}
   .burger {
     display: flex;
   }
