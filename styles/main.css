@@ -88,10 +88,9 @@ header {
   .header__menu {
     position: fixed;
     top: 0;
-    right: -250px; /* Прячем за экраном */
+    right: -300px; /* Прячем за экраном */
     width: 250px;
     height: 100vh;
-    background: white;
     padding: 20px;
     transition: right 0.3s ease-in-out;
     display: flex;
