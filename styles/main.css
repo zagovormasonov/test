@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(23, 23, 23);
+  font-family: 'Inter';
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+}
+
+.burger {
+  display: none;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #171717;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header__menu {
+  display: flex;
+  column-gap: 30px;
+}
+
+.header__menu li {
+  list-style-type: none;
+}
+
+.header__menu li a {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+  transition: .2s ease-in-out;
+}
+
+.header__menu li a:hover {
+  color: rgb(44, 220, 100);
+}
+
+.content {
+  display: flex;
+  gap: 16px;  
+}
+
+.top_rated_songs {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  padding: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.top_rated_songs p, span {
+  color: white;
+}
+
+@media (max-width: 747px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .content {
+    display: grid;
+  }
+  .top_rated_songs {
+    width: unset;
+  }
+}
