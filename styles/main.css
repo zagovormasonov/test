@@ -40,6 +40,7 @@ header {
   right: 0;
   top: 34px;
   padding: 20px;
+  font-size: 32px;
   background-color: #171717;
 }
 
@@ -86,8 +87,6 @@ header {
     padding-right: 16px;
   }
   .header__menu {
-    position: fixed;
-    top: 0;
     right: -300px; /* Прячем за экраном */
     width: 250px;
     background-color: #1c1c1c;
