@@ -90,6 +90,7 @@ header {
     top: 0;
     right: -300px; /* Прячем за экраном */
     width: 250px;
+    background-color: #1c1c1c;
     height: 100vh;
     padding: 20px;
     transition: right 0.3s ease-in-out;
