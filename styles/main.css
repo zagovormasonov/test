@@ -87,9 +87,11 @@ header {
     padding-right: 16px;
   }
   .header__menu {
+    position: fixed;
+    top: 0;
     right: -300px; /* Прячем за экраном */
     width: 250px;
-    background-color: #1c1c1c;
+    background-color: #171717;
     height: 100vh;
     padding: 20px;
     transition: right 0.3s ease-in-out;
